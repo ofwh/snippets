@@ -7,7 +7,7 @@ socks-port: 7891
 # Linux 及 macOS 的 redir 端口
 # redir-port: 7892
 
-allow-lan: false
+allow-lan: true
 
 # Only applicable when setting allow-lan to true
 # "*": bind all IP addresses

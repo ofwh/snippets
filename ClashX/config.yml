@@ -60,7 +60,7 @@ external-controller: 127.0.0.1:9090
 cfw-bypass:
   - qq.com
   - music.163.com
-  - '*.music.126.net'
+  - "*.music.126.net"
   - localhost
   - 127.*
   - 10.*
@@ -185,38 +185,40 @@ Proxy:
 
 # 代理组策略
 Proxy Group:
-# url-test 通过指定的 URL 测试并选择延迟最低的节点
-- name: "Auto"
-  type: url-test
-  proxies:
-    - "1"
-    - "2"
-  url: 'http://www.gstatic.com/generate_204'
-  interval: 300
+  # url-test 通过指定的 URL 测试并选择延迟最低的节点
+  - name: "Auto"
+    type: url-test
+    proxies:
+      - "1"
+      - "2"
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
 
-# 代理节点选择
-- name: "PROXY"
-  type: select
-  proxies:
-    - "Auto"
-    - "DIRECT"
-# 白名单模式 PROXY，黑名单模式 DIRECT
-- name: "Final"
-  type: select
-  proxies:
-    - "PROXY"
-    - "DIRECT"
+  # 代理节点选择
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "Auto"
+      - "DIRECT"
+  # 白名单模式 PROXY，黑名单模式 DIRECT
+  - name: "Final"
+    type: select
+    proxies:
+      - "PROXY"
+      - "DIRECT"
 
 # 规则
 Rule:
-# Local Area Network
-- IP-CIDR,192.168.0.0/16,DIRECT
-- IP-CIDR,10.0.0.0/8,DIRECT
-- IP-CIDR,172.16.0.0/12,DIRECT
-- IP-CIDR,127.0.0.0/8,DIRECT
-- IP-CIDR,100.64.0.0/10,DIRECT
+  # Local Area Network
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,17.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
 
-# GeoIP China
-- GEOIP,CN,DIRECT
+  # GeoIP China
+  - GEOIP,CN,DIRECT
 
-- MATCH,Final
+  - MATCH,Final

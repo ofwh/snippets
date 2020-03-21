@@ -1,0 +1,7 @@
+huya() {
+  CHANNEL=$1
+  if [ -z "$CHANNEL" ]; then
+    CHANNEL="688"
+  fi
+  curl -s -H "Content-Type: application/x-www-form-urlencoded" -H "User-Agent: Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36" "https://m.huya.com/$CHANNEL" | grep hasvedio | awk '{print $2}' | sed 's/_.*\.m3u8/\.m3u8/' | sed "s/'//g"
+}

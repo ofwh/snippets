@@ -1,0 +1,30 @@
+# Whistle, 需要先安装 npm install -g whistle
+ws() {
+  ACTION=$1
+  PORT=$2
+  if [ -z "$PORT" ] || [ -z "$ACTION" ]; then
+    echo ""
+    echo "Usage: ws \033[0;37m<action> <port>\033[0m"
+    echo ""
+    echo "where \033[0;37m<action>\033[0m is one of: start, stop"
+    echo ""
+    echo "EXAMPLES"
+    echo -e "\033[0;37m ws start 8888 \033[0m \t\t Start whistle using port 8888"
+    echo -e "\033[0;37m ws stop 8888  \033[0m \t\t Stop whislte as port 8888"
+    echo ""
+  else
+    case $ACTION in
+      [sS][tT][aA][rR][tT])
+        echo -e "Starting whistle at $PORT"
+        w2 --port $PORT -S "config_$PORT" $ACTION
+        ;;
+      [sS][tT][oO][pP])
+        echo -e "Stopping whistle at $PORT"
+        w2 --port $PORT -S "config_$PORT" $ACTION
+        ;;
+      *)
+        echo "Unknow action, please try again."
+        ;;
+    esac
+  fi
+}

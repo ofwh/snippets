@@ -81,6 +81,9 @@ zle_highlight=(region:bg=magenta
 special:bold
 isearch:underline)
 
+alias ls=' ls -F'
+alias ll=' ls -alh'
+alias grep='grep --color=auto'
 alias run-help >&/dev/null && unalias run-help
 autoload run-help
 

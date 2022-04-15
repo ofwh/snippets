@@ -1,0 +1,36 @@
+script:
+
+rules:
+  ## 解决SSH使用Github失败的问题
+  - DST-PORT,22,DIRECT
+  - DOMAIN,gist.github.com,代理
+
+  ## 70 - 255 直连
+  - SRC-IP-CIDR,10.0.0.70/31,DIRECT
+  - SRC-IP-CIDR,10.0.0.72/29,DIRECT
+  - SRC-IP-CIDR,10.0.0.80/28,DIRECT
+  - SRC-IP-CIDR,10.0.0.96/27,DIRECT
+  - SRC-IP-CIDR,10.0.0.128/25,DIRECT
+
+  # Xbox
+  - DOMAIN-SUFFIX,xbox.com,DIRECT
+  - DOMAIN-SUFFIX,xboxab.com,DIRECT
+  - DOMAIN-SUFFIX,xboxab.net,DIRECT
+  - DOMAIN-SUFFIX,xboxlive.com,DIRECT
+  - DOMAIN-SUFFIX,xboxservice.com,DIRECT
+  - DOMAIN-SUFFIX,xboxservices.com,DIRECT
+  - DOMAIN-SUFFIX,gamepass.com,DIRECT
+  
+  # For Disney+
+  - DOMAIN,cdn.registerdisney.go.com,代理
+  - DOMAIN-KEYWORD,dssott.com,代理
+  - DOMAIN-SUFFIX,edge.bamgrid.com,代理
+  - DOMAIN-SUFFIX,www.disneyplus.com,代理
+  - DOMAIN-SUFFIX,dssott-cds.s.llnwi.net,代理
+  - DOMAIN-SUFFIX,alphacdn.net,代理
+  - DOMAIN-SUFFIX,dss.map.fastly.net,代理
+  
+  # For v2ex
+  - DOMAIN-SUFFIX,v2ex.com,代理
+
+##在线IP段转CIDR地址：http://ip2cidr.com

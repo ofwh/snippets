@@ -1,16 +1,19 @@
 {
-  "trailingComma": "es5",
-  "printWidth": 160,
-  "tabWidth": 2,
-  "useTabs": false,
-  "semi": false,
-  "singleQuote": true,
-  "quoteProps": "consistent",
-  "bracketSpacing": true,
-  "arrowParens": "always",
-  "insertPragma": false,
-  "jsxBracketSameLine": false,
-  "jsxSingleQuote": false,
-  "proseWrap": "preserve",
-  "requirePragma": false
+  "arrowParens": "avoid", // 箭头函数参数只有一个时是否需要有小括号，默认为always。可选<always|avoid>
+  "bracketSpacing": true, // 对象大括号直接是否有空格，默认为true。可选<true|false>
+  "endOfLine": "lf", // 结尾换行符，默认为lf。可选<lf|cr|crlf|auto>
+  "htmlWhitespaceSensitivity": "css", // html内容是否敏感，默认为css。可选<css|strict|ignore>
+  "insertPragma": false, // 在文件顶部插入@format的特殊注释，标明已经被Prettier格式化过，默认为false。可选<true|false>
+  "jsxBracketSameLine": false, // [已废弃] jsx文件中的 ">" 标签是否放到单独的一行，默认为false。可选<true|false>
+  "jsxSingleQuote": false, // jsx语法中使用单引号，默认为false。可选<true|false>
+  "printWidth": 120, // 每行最大宽度，超过将自动换行，默认为80。可选<number>
+  "proseWrap": "preserve", // 默认情况下，Prettier会因为使用了一些折行敏感型的渲染器（如GitHub comment 和 BitBucket）而按照markdown文本样式进行折行，默认为preserve。可选<always|never|preserve>
+  "quoteProps": "as-needed", // 对象的属性名是否使用引号，默认为as-needed。可选<as-needed|consistent|preserve>
+  "requirePragma": false, // 严格按照文件顶部的一些特殊的注释格式化代码，默认为false。可选<true|false>
+  "semi": true, // 是否语句末尾添加分号，默认为true。可选<true|false>
+  "singleQuote": true, // 使用单引号而非双引号，默认为false。可选<true|false>
+  "tabWidth": 2, // 设置工具每一个水平缩进的空格数，默认为2。可选<number>
+  "trailingComma": "none", // 是否使用尾逗号，默认为es5。可选<none|es5|all>
+  "useTabs": false, // 是否使用tab进行缩进，默认为false，表示用空格进行缩减
+  "vueIndentScriptAndStyle": false // Vue文件中脚本和样式缩进，默认为false。可选<true|false>
 }

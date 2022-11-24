@@ -1,0 +1,2 @@
+# Clear Password Policy
+alias clearpolicy="pwpolicy -clearaccountpolicies"

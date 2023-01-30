@@ -1,0 +1,18 @@
+/* 仓库标题 */
+.nav-folder-title {
+  cursor: pointer !important;
+}
+
+.nav-folder-title-content {
+  display: flex !important;
+  align-items: center;
+}
+
+.nav-folder > .nav-folder-title[data-path='/'] .nav-folder-title-content::before {
+  content: '🏠';
+  background-size: 100%;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 5px;
+}

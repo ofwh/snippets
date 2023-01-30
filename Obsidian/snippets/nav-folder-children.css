@@ -1,0 +1,37 @@
+/* 自定义左侧目录图标 */
+.nav-folder-title {
+  cursor: pointer !important;
+}
+
+.nav-folder-title-content {
+  display: flex !important;
+  align-items: center;
+}
+
+.nav-folder-children .nav-folder-title-content::before {
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* 目录已展开 */
+.nav-files-container
+  > .nav-folder
+  > .nav-folder-children
+  .nav-folder:not(.is-collapsed)
+  .nav-folder-title-content::before {
+  content: '';
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAA7AAAAOwBeShxvQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGxSURBVFiF7ZY9LwRRFIbfd+aOFYtyCxKtaDQKoZQoFDqNH6Dx+QvEFmoKNhKdSoKITmlJfCYqEolG6ISCwq41M/co1seuj53FvSR4qpk75977zMw5Zwb4569DAGgd8ich6AMQLxF7JeRSmHNH9meZMSbQNuy3a43ND8xZbThX3YuLDE0IOKFm/QfndJ0lggkkxTEhoD41ixhuvQw6OegflhMuwhtS5namvbQZgTxNAjSVFUmBBnrbB6RxK8XTwktGHmNZDkBMO2HLy/FvEwAALXB/VOAtysoBVUtUJFzwKxmTZ6FjWgAA4iPnX6M5ckkqoKLOzXcsg9BDjEr3RL4Ct9oxvvmTxK0zHymg4na211m53hjnSWkBAq4lAbnDFhBRBW4VrdXJndaz0QLVlu4+kHB7VK38mIDO8ejx+F0BeoTj2REIfL0cKaBqLBWfAF7gTEUK2Mr+MCsX6SQvSwqQDxVgAQmQLjx/U8CNE7baH/1wpkiAgH4lYKv8fOTWx7y1IgGR4ADA8w8m8/3fBuGt7L4cc/ZSlceA9AM4pwJidUY+u0WIAEFGzkTYY3blf34D923VgBYmZ+xFAAAAAElFTkSuQmCC')
+    no-repeat center;
+  background-size: 100%;
+}
+
+/* 目录未展开 */
+.nav-files-container > .nav-folder > .nav-folder-children .nav-folder.is-collapsed .nav-folder-title-content::before {
+  content: '';
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAA7AAAAOwBeShxvQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADwSURBVFiF7dexTgJBFIXh/+ySEA1UxLXQ2PIIhIqONyCxsDYWamllQQ2PQkVNAhWvAKGFDhJjInS7e21Wa2DIaHROf3O+3JspBv57BNDpWLy6zNo5VPYaMnu/WZfGg4EyV0AJYJmkXeBV+04JlknaB15cARGARP3QQRPPjSe7PgngmAjKZtlpNnB87L75YFc/BhCU8zh12oIAWr18FZ/L+Z4HZGtwN3nU8GsDqcdygIrgFooTRGeaeQaAiL8Bith5BxRxfAUBEAABEAABEAAB8GcAxsJ3sRlzKH5GtYTu24ap5VR9lCvio3bByEfX788nzrI0oiaOQwkAAAAASUVORK5CYII=')
+    no-repeat center;
+  background-size: 100%;
+}

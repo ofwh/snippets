@@ -1,0 +1,251 @@
+! Checksum: xewBDO1/9mlqnEJx7kDMgw
+#wp>div:nth-child(3)
+/right_recommend/right_recommend_*.js
+115.com#div[class="top-banner"]
+17173.com/*
+bbs.feng.com/aodoo3/*.php
+cnzz.com/z_stat.php
+|http://ctc.qzs.qq.com/qzone/client/photo/swf/vphoto.swf
+|http://googleads.g.doubleclick.net/pagead/ads?*
+|http://imgcache.qzoneapp.com/jiayuan/images/banner.jpg
+|http://static.googleadsserving.cn/pagead/imgad?*
+|http://www.baidu.com/adrc.php?*
+||bbs.gfan.com/logo/LOGO/*
+||http://hm.baidu.com/
+http://ykrec.youku.com/show/packed/list.json
+notice.youku.com/*
+! [例外规则]/whitelist
+! [元素隐藏规则]/elemhide
+! [广告屏蔽规则]/blocking
+! cnbeta.com#section(class*=cber)
+#a(style*=http://open.t.qq.com/apps/qshare/images/icon.gif)
+#div(class*=bdsharebuttonbox)
+#div(class=forum_rules)
+#div(class=header_treasure)
+#div(class=ptgmbmmtn)
+#div(class=rate_panel)
+#div(id$=FooterDiv)
+#div(id$=_AdDiv)
+#div(id$=_dvReadAd)
+#div(id$=adDiv)
+#div(id=db_eleven)
+#div(id^=BAIDU_DUP)
+#div(id^=mbox)(id$=AdDiv)
+#id(id$=_dvReadAd)
+#iframe(id=WBCommentFrame)
+1024diss.info#div(class=tips)
+126.com#DIV(id*=adDiv)
+126.com,163.com,yeah.net#div(id*=mail_popup)
+163.com#DIV(id*=adDiv)
+51job.com#Div(id=adTonglan)
+baidu.com###content_right
+baidu.com#a(log=user.msglink.click)
+baidu.com#div(class=fsblock)
+baidu.com#div(id*=identifier-pannel)
+baidu.com#div(id=bkDynamic)
+baidu.com#div(id=effort)
+baidu.com#div(id=encourage_tip_wrapper)
+baidu.com#div(id=growupTask)
+baidu.com#div(id=push-panel)
+baidu.com#div(id=share-panel)
+baidu.com#div(id=task-guide)
+baidu.com#div(id=tip_holder)
+baidu.com#img(id=selectsearch-icon)
+baidu.com#p(class=bk-feedback)
+baidu.com#span(id=IMBubble)
+baidu.com#ul(id=feedRecommend)
+bbs.cnliti.com###Ectool
+bbs.cnliti.com###diy1
+bbs.cnliti.com###sitefocus
+bbs.cnliti.com##.bm.bml.pbn
+bbs.dospy.com###h_n_left
+bbs.dospy.com###toplink
+bbs.dospy.com##.altbg2.bottom
+bbs.feng.com##.tac.mb5
+bbs.h5gal.com###frameGI64h6
+bbs.h5gal.com##.bm.bml.pbn
+bbs.htcppc.com##DIV#ad_text
+bbs.htcppc.com##DIV#highlightIndexThreadShow
+bbs.pcbeta.com###sitefocus
+bbs.pcbeta.com##.bm.a_c
+bbs.pcbeta.com#DIV(id=modarea)
+bbs.xda.cn#div(id=ad_text)
+btscg.com#div(id=div_minipage)
+cnbeta.com#DIV(id=bfd_box)
+cnbeta.com#div(class=navi)
+cnbeta.com#div(class=time)
+cnbeta.com#div(id=left_art)
+cnbeta.com#div(id=popshare)
+cnbeta.com#section(class=cb_box)
+csdn.net#DIV(class=rt)
+csdn.net#div(class=bbs_top_ad)
+csdn.net#div(class=recruitfull)
+csdn.net#div(class=sq)
+csdn.net#div(id=ann)
+csdn.net#div(id=cloudad_box)
+dospy.com#div(id=otherTopic)
+feng.com#DIV(class=textMes)
+feng.com#div(class*=ad-box)
+feng.com#div(class*=shareAll)
+feng.com#div(class*=wea_d_panel_)
+feng.com#div(class=order_panel)
+feng.com#div(class=our_image)
+feng.com#div(class=our_services)
+feng.com#div(class=section_panel)
+feng.com#div(class=tac)
+feng.com#div(class=threadInfo)
+feng.com#div(class=bbs_treasure)
+feng.com#div(id=bbs_top_news)
+feng.com#div(id=category_lk)
+feng.com#div(id=cloudwind_aliSh_read_wrap)
+feng.com#div(id=header_news_wrap)
+feng.com#div(id=mark_tpc)
+feng.com#div(id=store_products)
+feng.com#div(id^=ads_)
+feng.com#table(class=sore_plist)
+hao123.com#div(class=middle)
+ipc.me##DIV#ext_post
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right
+letv.com#div(id=egg)
+mail.126.com#DIV(id=dvTitledeleted)
+mail.126.com#DIV(id=dvTitleinbox)
+mail.163.com#DIV(id=dvTitledeleted)
+mail.163.com#DIV(id=dvTitleinbox)
+news.baidu.com#div(class=ecom)
+pan.baidu.com#a(id=barCmdOpenDevice)
+pan.baidu.com#a(id=barPushToDeviceMore)
+pan.baidu.com#li(data-key=AD)
+pcbeta.com##DIV.cm
+pcbeta.com#DIV(id=appxbanner)
+pcbeta.com#DIV(id=forumdisplaytop)
+pcbeta.com#div(class=ad_column)
+pcbeta.com#div(id=banner8th)
+pcbeta.com#div(id=pb_n_c)
+pcbeta.com#div(id=pb_n_c_t)
+shop.tompda.com#IFRAME(scrolling=no)
+show.smzdm.com###leftLayer
+show.smzdm.com##.leftLayer
+sina.com.cn#div(class*=PY_clew)
+sina.com.cn#div(class*=missionBox)
+sina.com.cn#div(class*=tipsBox3)
+sina.com.cn#div(class=PopLayer)
+sina.com.cn#div(class=f_pro)
+sina.com.cn#div(class=tips_player)
+sina.com.cn#div(name=app*)
+smzdm.com###leftLayer
+sznews.com#div(class*=indexcon01)
+sznews.com#div(class*=indexcon02)
+taobao.com##.m-guess-you-like
+taobao.com##.m-someone-like-you
+taobao.com#div(class=J_DirectionalBox)
+tudou.com#div(id=gEwm)
+tudou.com#div(id=watchlaterBox)
+weibo.com###pl_rightmod_yunying
+weibo.com##.WB_right_module
+weibo.com##.W_func
+weibo.com##.key.S_textb
+weibo.com#div(class*=PY_clew)
+weibo.com#div(class*=missionBox)
+weibo.com#div(class*=mplayer)
+weibo.com#div(class*=pictext)
+weibo.com#div(class*=tipsBox3)
+weibo.com#div(class*=toptips)
+weibo.com#div(class*=webim)
+weibo.com#div(class=PopLayer)
+weibo.com#div(class=f_pro)
+weibo.com#div(class=tips_player)
+weibo.com#div(id*=ads_)
+weibo.com#div(name=app*)
+weibo.com#div(node-type=feed_spread)
+weibo.com#div(node-type=recommendTopic)
+youku.com#div(id*=ykSideBar)
+#div(class^=ad-widget)
+#div(class^=baiduimageplus)
+baidu.com#div(class*=c-recommend)
+baidu.com#div(class*=result-op)
+baidu.com#span(class*=rrecom-btn-parent)
+youku.com#div(class*=cert-list)
+youku.com#div(class*=commentArea)
+youku.com#div(class*=footer-link)
+youku.com#div(class*=nBox)
+youku.com#div(class*=subscirbe-rank)
+youku.com#div(class*=videoComment)
+youku.com#div(class*=yk-footer-con)
+youku.com#div(id^=ab_)
+youku.com#div(class*=right-sideBar)
+#div(id^=BAIDU_SSP)
+baidu.com#div(class^=ad-)
+! 2017/10/27 下午7:09:22
+v.youku.com##.comment-area
+v.youku.com##.module_basic_sub
+v.youku.com##.mainCol
+v.youku.com##.sideCol
+baidu.com/*/monitor.js
+t66y.com#div(class=tips)
+cnzz.com/*
+! 8/26/2019 https://uploadproper.net
+uploadproper.net##form > center
+! 3/21/2020 https://juejin.im
+juejin.im##.recommend-box
+ping.cloud.tencent.com/*
+insight.cloud.tencent.com/*
+*heartBeat*
+! 9/18/2019 http://km.oa.com
+csig.lexiangla.com/api/v1/staff/watermark
+oa.com##.watermark
+oa.com##.watermarkHide
+##.watermark
+! 2021-05-11 https://www.inoreader.com
+www.inoreader.com##.leaderboard_ad
+! weiyun.com
+www.weiyun.com##.announcement-notice
+weiyun.com/weiyun/compass/dc01956
+www.weiyun.com##div.modal-show:has(.mod-popup-ad)
+update.pan.baidu.com/statistics
+! 2021-09-23 https://afs.kaola.com
+kaola.com###j-qrcode-wap
+stackoverflow.com##div.js-consent-banner:has(.js-accept-cookies)
+! 2021-12-09 企业微信文档
+weixin.qq.com###watermark-container
+weixin.qq.com##.intro_water
+! 2022-04-24 https://www.yuque.com
+yuque.com##div.wm
+www.yuque.com##div.wm
+www.yuque.com##div[class^="index-module_premiumBtnArea"]
+www.yuque.com##div[class*=index-module_reward]
+www.yuque.com##div[class*=module_info]
+www.yuque.com##div[class*=module_comment]
+! 2022-04-26 https://doc.weixin.qq.com
+doc.weixin.qq.com##div.watermark-bg-wrapper
+! 2022-08-25 https://mjh30l62fo.feishu.cn
+feishu.cn##.not-compatible__announce
+mon.zijieapi.com
+! 2022-10-20 https://rd.oa.fenqile.com
+fenqile.com##div[id*=mask_div]
+fenqile.com##div[class*=mask_div]
+fenqile.cn##div[id*=mask_div]
+fenqile.cn##div[class*=mask_div]
+! 2022-11-16 https://buananetpbun.github.io
+buananetpbun.github.io##.modal-login
+! 2022-11-25 乐信
+##div[id*=watermark]
+##div[class*=watermark]
+lexiangla.com/api/v1/staff/watermark
+! 2023-01-06 插件上报过滤，可能在偷信息
+lingfengyun.com
+! 2023-03-13 腾讯上报
+! 神奇的企业微信居然有aegis开头的js bundle文件
+*aegis.*
+*sentry.*
+! 2023-09-12 知乎去弹窗
+!zhihu.com##body>div:has(div[class^="Modal-wrapper"])
+! 知乎登录弹窗
+zhihu.com##.Modal-wrapper
+! 知乎右下角 popup
+zhihu.com##.css-1ynzxqw
+! 2023-11-23 http://lechatgpt.cn
+||lechatgpt.cn/images/prompt-chat-demo1.gif$image
+! 2024-03-19 https://stackoverflow.com
+stackoverflow.com###onetrust-consent-sdk
+! 2024-02-15 https://stackoverflow.com
+youtube.com##ytd-rich-item-renderer ~ ytd-rich-section-renderer

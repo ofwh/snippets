@@ -1,4 +1,10 @@
-! Checksum: xewBDO1/9mlqnEJx7kDMgw
+[Adblock]
+! Title: Personal Filters for AdBlock
+! Description: Private Web Surfing Ad Filtering Rules
+! Version: 2025.9.17
+! Last modified: Sun, 17 Sep 2025, 20:43 UTC+00:00
+! Expires: 1 days
+
 #wp>div:nth-child(3)
 /right_recommend/right_recommend_*.js
 115.com#div[class="top-banner"]
@@ -14,10 +20,6 @@ cnzz.com/z_stat.php
 ||http://hm.baidu.com/
 http://ykrec.youku.com/show/packed/list.json
 notice.youku.com/*
-! [例外规则]/whitelist
-! [元素隐藏规则]/elemhide
-! [广告屏蔽规则]/blocking
-! cnbeta.com#section(class*=cber)
 #a(style*=http://open.t.qq.com/apps/qshare/images/icon.gif)
 #div(class*=bdsharebuttonbox)
 #div(class=forum_rules)
@@ -175,7 +177,6 @@ youku.com#div(id^=ab_)
 youku.com#div(class*=right-sideBar)
 #div(id^=BAIDU_SSP)
 baidu.com#div(class^=ad-)
-! 2017/10/27 下午7:09:22
 v.youku.com##.comment-area
 v.youku.com##.module_basic_sub
 v.youku.com##.mainCol
@@ -183,69 +184,47 @@ v.youku.com##.sideCol
 baidu.com/*/monitor.js
 t66y.com#div(class=tips)
 cnzz.com/*
-! 8/26/2019 https://uploadproper.net
 uploadproper.net##form > center
-! 3/21/2020 https://juejin.im
 juejin.im##.recommend-box
 ping.cloud.tencent.com/*
 insight.cloud.tencent.com/*
 *heartBeat*
-! 9/18/2019 http://km.oa.com
 csig.lexiangla.com/api/v1/staff/watermark
 oa.com##.watermark
 oa.com##.watermarkHide
 ##.watermark
-! 2021-05-11 https://www.inoreader.com
 www.inoreader.com##.leaderboard_ad
-! weiyun.com
 www.weiyun.com##.announcement-notice
 weiyun.com/weiyun/compass/dc01956
 www.weiyun.com##div.modal-show:has(.mod-popup-ad)
 update.pan.baidu.com/statistics
-! 2021-09-23 https://afs.kaola.com
 kaola.com###j-qrcode-wap
 stackoverflow.com##div.js-consent-banner:has(.js-accept-cookies)
-! 2021-12-09 企业微信文档
 weixin.qq.com###watermark-container
 weixin.qq.com##.intro_water
-! 2022-04-24 https://www.yuque.com
 yuque.com##div.wm
 www.yuque.com##div.wm
 www.yuque.com##div[class^="index-module_premiumBtnArea"]
 www.yuque.com##div[class*=index-module_reward]
 www.yuque.com##div[class*=module_info]
 www.yuque.com##div[class*=module_comment]
-! 2022-04-26 https://doc.weixin.qq.com
 doc.weixin.qq.com##div.watermark-bg-wrapper
-! 2022-08-25 https://mjh30l62fo.feishu.cn
 feishu.cn##.not-compatible__announce
 mon.zijieapi.com
-! 2022-10-20 https://rd.oa.fenqile.com
 fenqile.com##div[id*=mask_div]
 fenqile.com##div[class*=mask_div]
 fenqile.cn##div[id*=mask_div]
 fenqile.cn##div[class*=mask_div]
-! 2022-11-16 https://buananetpbun.github.io
 buananetpbun.github.io##.modal-login
-! 2022-11-25 乐信
 ##div[id*=watermark]
 ##div[class*=watermark]
 lexiangla.com/api/v1/staff/watermark
-! 2023-01-06 插件上报过滤，可能在偷信息
 lingfengyun.com
-! 2023-03-13 腾讯上报
-! 神奇的企业微信居然有aegis开头的js bundle文件
 *aegis.*
 *sentry.*
-! 2023-09-12 知乎去弹窗
-!zhihu.com##body>div:has(div[class^="Modal-wrapper"])
-! 知乎登录弹窗
 zhihu.com##.Modal-wrapper
-! 知乎右下角 popup
 zhihu.com##.css-1ynzxqw
-! 2023-11-23 http://lechatgpt.cn
 ||lechatgpt.cn/images/prompt-chat-demo1.gif$image
-! 2024-03-19 https://stackoverflow.com
 stackoverflow.com###onetrust-consent-sdk
-! 2024-02-15 https://stackoverflow.com
+bilibili.com##.floor-single-card
 youtube.com##ytd-rich-item-renderer ~ ytd-rich-section-renderer

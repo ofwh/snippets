@@ -221,7 +221,7 @@ buananetpbun.github.io##.modal-login
 lexiangla.com/api/v1/staff/watermark
 lingfengyun.com
 *aegis.*
-*sentry.*
+! *sentry.*
 zhihu.com##.Modal-wrapper
 zhihu.com##.css-1ynzxqw
 ||lechatgpt.cn/images/prompt-chat-demo1.gif$image
